@@ -1,0 +1,7 @@
+[2021-12-31 06:43:15] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2021-12-31 06:43:15] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateEmptyEmailLogin] STARTED at [18:43:15 2021-12-31]
+[2021-12-31 06:43:29] [DriverListener.java] [1] [INFO] PASS: element 'loginDropdown' is clicked.
+[2021-12-31 06:43:31] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'loginPasswordField'.
+[2021-12-31 06:43:32] [DriverListener.java] [1] [INFO] PASS: keys 'Automation' are sent to element 'loginPasswordField'.
+[2021-12-31 06:43:33] [DriverListener.java] [1] [INFO] PASS: element 'logInButton' is clicked.
+[2021-12-31 06:43:42] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateEmptyEmailLogin] PASSED at [18:43:42 2021-12-31]

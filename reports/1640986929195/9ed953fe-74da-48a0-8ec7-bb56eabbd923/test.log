@@ -1,0 +1,5 @@
+[2021-12-31 06:42:25] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2021-12-31 06:42:25] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateBrandSearch [L02]] STARTED at [18:42:25 2021-12-31]
+[2021-12-31 06:42:38] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'searchField'.
+[2021-12-31 06:42:40] [DriverListener.java] [1] [INFO] PASS: keys 'Apple' are sent to element 'searchField'.
+[2021-12-31 06:42:42] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateBrandSearch [L02]] PASSED at [18:42:42 2021-12-31]

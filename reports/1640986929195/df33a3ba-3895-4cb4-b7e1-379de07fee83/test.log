@@ -1,0 +1,6 @@
+[2021-12-31 06:47:53] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2021-12-31 06:47:53] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2021-12-31 06:47:53] [IMessager.java] [1] [INFO] TEST [gsm_arena - validatePhoneSearch [L01]] STARTED at [18:47:53 2021-12-31]
+[2021-12-31 06:48:05] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'searchField'.
+[2021-12-31 06:48:06] [DriverListener.java] [1] [INFO] PASS: keys 'A21s' are sent to element 'searchField'.
+[2021-12-31 06:48:08] [IMessager.java] [1] [INFO] TEST [gsm_arena - validatePhoneSearch [L01]] PASSED at [18:48:08 2021-12-31]

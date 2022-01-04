@@ -1,0 +1,5 @@
+[2021-12-31 06:38:10] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2021-12-31 06:38:10] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateBrandSearch [L04]] STARTED at [18:38:10 2021-12-31]
+[2021-12-31 06:38:23] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'searchField'.
+[2021-12-31 06:38:24] [DriverListener.java] [1] [INFO] PASS: keys 'Google' are sent to element 'searchField'.
+[2021-12-31 06:38:27] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateBrandSearch [L04]] PASSED at [18:38:27 2021-12-31]
