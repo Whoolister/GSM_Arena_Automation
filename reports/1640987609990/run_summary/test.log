@@ -1,2 +1,0 @@
-[2021-12-31 06:53:47] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2021-12-31 06:53:47] [IMessager.java] [1] [INFO] RESULT #1: TEST [gsm_arena - validateEmptyPasswordLogin] FAIL [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1640987609990/3314a193-2fc9-4c29-b87b-f1bcaab1c208/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1640987609990/3314a193-2fc9-4c29-b87b-f1bcaab1c208/test.log]

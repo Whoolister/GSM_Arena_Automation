@@ -1,5 +1,0 @@
-[2021-12-31 06:48:24] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
-[2021-12-31 06:48:24] [IMessager.java] [1] [INFO] TEST [gsm_arena - validatePhoneSearch [L03]] STARTED at [18:48:24 2021-12-31]
-[2021-12-31 06:48:37] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'searchField'.
-[2021-12-31 06:48:38] [DriverListener.java] [1] [INFO] PASS: keys 'Surface Duo 2' are sent to element 'searchField'.
-[2021-12-31 06:48:41] [IMessager.java] [1] [INFO] TEST [gsm_arena - validatePhoneSearch [L03]] PASSED at [18:48:41 2021-12-31]

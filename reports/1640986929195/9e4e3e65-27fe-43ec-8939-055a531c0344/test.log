@@ -1,5 +1,0 @@
-[2021-12-31 06:46:42] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
-[2021-12-31 06:46:42] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateErrorMessage] STARTED at [18:46:42 2021-12-31]
-[2021-12-31 06:47:03] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'searchField'.
-[2021-12-31 06:47:04] [DriverListener.java] [1] [INFO] PASS: keys 'adkhabdhkawhdgwyawkhg' are sent to element 'searchField'.
-[2021-12-31 06:47:08] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateErrorMessage] PASSED at [18:47:08 2021-12-31]
