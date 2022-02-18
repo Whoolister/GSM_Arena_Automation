@@ -1,0 +1,15 @@
+[2022-01-07 07:53:25] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-07 07:53:25] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateInvalidEmailSingUp] STARTED at [19:53:25 2022-01-07]
+[2022-01-07 07:53:42] [DriverListener.java] [1] [INFO] PASS: element 'signUpButton' is clicked.
+[2022-01-07 07:53:43] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'nicknameField'.
+[2022-01-07 07:53:44] [DriverListener.java] [1] [INFO] PASS: keys 'Testing999411583' are sent to element 'nicknameField'.
+[2022-01-07 07:53:44] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'emailField'.
+[2022-01-07 07:53:44] [DriverListener.java] [1] [INFO] PASS: keys 'ABCDEF@g' are sent to element 'emailField'.
+[2022-01-07 07:53:45] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'passwordField'.
+[2022-01-07 07:53:45] [DriverListener.java] [1] [INFO] PASS: keys 'Testing' are sent to element 'passwordField'.
+[2022-01-07 07:53:46] [DriverListener.java] [1] [ERROR] FAIL: element 'dataStorageCheckbox (By.xpath: //input[@id='iagree1' and @type='checkbox'])' is not clicked!
+[2022-01-07 07:53:47] [ExtendedWebElement.java] [1] [WARN] Trying to do click by JavascriptExecutor because element 'dataStorageCheckbox (By.xpath: //input[@id='iagree1' and @type='checkbox'])' is not visible...
+[2022-01-07 07:53:47] [DriverListener.java] [1] [ERROR] FAIL: element 'ageMajorityCheckbox (By.xpath: //input[@id='iagree2' and @type='checkbox'])' is not clicked!
+[2022-01-07 07:53:48] [ExtendedWebElement.java] [1] [WARN] Trying to do click by JavascriptExecutor because element 'ageMajorityCheckbox (By.xpath: //input[@id='iagree2' and @type='checkbox'])' is not visible...
+[2022-01-07 07:53:49] [DriverListener.java] [1] [INFO] PASS: element 'submitButton' is clicked.
+[2022-01-07 07:53:49] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateInvalidEmailSingUp] PASSED at [19:53:49 2022-01-07]

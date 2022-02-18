@@ -1,0 +1,4 @@
+[2022-01-07 07:56:17] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-07 07:56:17] [IMessager.java] [1] [INFO] TEST [gsm_arena - verifySingUpWelcomeMessage] STARTED at [19:56:17 2022-01-07]
+[2022-01-07 07:56:30] [DriverListener.java] [1] [INFO] PASS: element 'signUpButton' is clicked.
+[2022-01-07 07:56:31] [IMessager.java] [1] [INFO] TEST [gsm_arena - verifySingUpWelcomeMessage] PASSED at [19:56:31 2022-01-07]

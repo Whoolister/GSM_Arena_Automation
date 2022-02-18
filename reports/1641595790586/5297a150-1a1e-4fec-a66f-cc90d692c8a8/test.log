@@ -1,0 +1,5 @@
+[2022-01-07 07:54:25] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-07 07:54:25] [IMessager.java] [1] [INFO] TEST [gsm_arena - validatePhoneSearch [L02]] STARTED at [19:54:25 2022-01-07]
+[2022-01-07 07:54:43] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'searchField'.
+[2022-01-07 07:54:45] [DriverListener.java] [1] [INFO] PASS: keys 'iPhone 13 Pro Max' are sent to element 'searchField'.
+[2022-01-07 07:54:47] [IMessager.java] [1] [INFO] TEST [gsm_arena - validatePhoneSearch [L02]] PASSED at [19:54:47 2022-01-07]

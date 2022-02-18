@@ -1,0 +1,11 @@
+[2022-01-07 07:55:29] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-07 07:55:29] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateRequiredConditionsSignUp] STARTED at [19:55:29 2022-01-07]
+[2022-01-07 07:55:48] [DriverListener.java] [1] [INFO] PASS: element 'signUpButton' is clicked.
+[2022-01-07 07:55:48] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'nicknameField'.
+[2022-01-07 07:55:49] [DriverListener.java] [1] [INFO] PASS: keys 'Testing182879474' are sent to element 'nicknameField'.
+[2022-01-07 07:55:49] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'emailField'.
+[2022-01-07 07:55:50] [DriverListener.java] [1] [INFO] PASS: keys 'ABCDEF@g' are sent to element 'emailField'.
+[2022-01-07 07:55:50] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'passwordField'.
+[2022-01-07 07:55:50] [DriverListener.java] [1] [INFO] PASS: keys 'Testing' are sent to element 'passwordField'.
+[2022-01-07 07:55:51] [DriverListener.java] [1] [INFO] PASS: element 'submitButton' is clicked.
+[2022-01-07 07:55:52] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateRequiredConditionsSignUp] PASSED at [19:55:52 2022-01-07]

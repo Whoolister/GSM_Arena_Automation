@@ -1,0 +1,5 @@
+[2022-01-07 07:55:11] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-07 07:55:11] [IMessager.java] [1] [INFO] TEST [gsm_arena - validatePhoneSearch [L04]] STARTED at [19:55:11 2022-01-07]
+[2022-01-07 07:55:25] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'searchField'.
+[2022-01-07 07:55:27] [DriverListener.java] [1] [INFO] PASS: keys 'Pixel 6 Pro' are sent to element 'searchField'.
+[2022-01-07 07:55:29] [IMessager.java] [1] [INFO] TEST [gsm_arena - validatePhoneSearch [L04]] PASSED at [19:55:29 2022-01-07]

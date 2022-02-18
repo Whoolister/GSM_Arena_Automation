@@ -1,0 +1,7 @@
+[2022-01-07 07:52:43] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-07 07:52:43] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateEmptyPasswordLogin] STARTED at [19:52:43 2022-01-07]
+[2022-01-07 07:52:56] [DriverListener.java] [1] [INFO] PASS: element 'loginDropdown' is clicked.
+[2022-01-07 07:52:57] [DriverListener.java] [1] [INFO] PASS: keys cleared in element 'loginEmailField'.
+[2022-01-07 07:52:58] [DriverListener.java] [1] [INFO] PASS: keys 'lfonseca@solvd.com' are sent to element 'loginEmailField'.
+[2022-01-07 07:53:00] [DriverListener.java] [1] [INFO] PASS: element 'logInButton' is clicked.
+[2022-01-07 07:53:09] [IMessager.java] [1] [INFO] TEST [gsm_arena - validateEmptyPasswordLogin] PASSED at [19:53:09 2022-01-07]

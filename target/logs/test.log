@@ -1,0 +1,254 @@
+2022-01-07 19:49:50 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://127.0.0.1:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=60
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://127.0.0.1:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=chrome
+================================================
+
+2022-01-07 19:49:50 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 Reflections [INFO] Reflections took 500 ms to scan 9 urls, producing 2417 keys and 12074 values 
+2022-01-07 19:49:51 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-07 19:49:51 CarinaListener [INFO] Set thread-count=1
+2022-01-07 19:49:51 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-07 19:49:51 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:49:51 Messager [INFO] TEST [gsm_arena - validateBrandSearch [L01]] STARTED at [19:49:51 2022-01-07]
+2022-01-07 19:49:56 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:50:05 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:50:07 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-07 19:50:08 DriverListener [INFO] PASS: keys 'Samsung' are sent to element 'searchField'.
+2022-01-07 19:50:10 Messager [INFO] TEST [gsm_arena - validateBrandSearch [L01]] PASSED at [19:50:10 2022-01-07]
+2022-01-07 19:50:10 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:50:10 Messager [INFO] TEST [gsm_arena - validateBrandSearch [L02]] STARTED at [19:50:10 2022-01-07]
+2022-01-07 19:50:11 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:50:22 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:50:23 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-07 19:50:24 DriverListener [INFO] PASS: keys 'Apple' are sent to element 'searchField'.
+2022-01-07 19:50:31 Messager [INFO] TEST [gsm_arena - validateBrandSearch [L02]] PASSED at [19:50:31 2022-01-07]
+2022-01-07 19:50:31 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:50:31 Messager [INFO] TEST [gsm_arena - validateBrandSearch [L03]] STARTED at [19:50:31 2022-01-07]
+2022-01-07 19:50:32 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:50:40 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:50:41 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-07 19:50:43 DriverListener [INFO] PASS: keys 'Microsoft' are sent to element 'searchField'.
+2022-01-07 19:50:48 Messager [INFO] TEST [gsm_arena - validateBrandSearch [L03]] PASSED at [19:50:48 2022-01-07]
+2022-01-07 19:50:48 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:50:48 Messager [INFO] TEST [gsm_arena - validateBrandSearch [L04]] STARTED at [19:50:48 2022-01-07]
+2022-01-07 19:50:49 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:51:04 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:51:05 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-07 19:51:07 DriverListener [INFO] PASS: keys 'Google' are sent to element 'searchField'.
+2022-01-07 19:51:13 Messager [INFO] TEST [gsm_arena - validateBrandSearch [L04]] PASSED at [19:51:13 2022-01-07]
+2022-01-07 19:51:13 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:51:13 Messager [INFO] TEST [gsm_arena - validateEmptyEmailLogin] STARTED at [19:51:13 2022-01-07]
+2022-01-07 19:51:14 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:51:24 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:51:25 DriverListener [INFO] PASS: element 'loginDropdown' is clicked.
+2022-01-07 19:51:27 DriverListener [INFO] PASS: keys cleared in element 'loginPasswordField'.
+2022-01-07 19:51:28 DriverListener [INFO] PASS: keys 'Automation' are sent to element 'loginPasswordField'.
+2022-01-07 19:51:29 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-07 19:51:30 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:51:31 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:51:38 Messager [INFO] TEST [gsm_arena - validateEmptyEmailLogin] PASSED at [19:51:38 2022-01-07]
+2022-01-07 19:51:38 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:51:38 Messager [INFO] TEST [gsm_arena - validateEmptyEmailSignUp] STARTED at [19:51:38 2022-01-07]
+2022-01-07 19:51:39 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:51:52 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:51:54 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-07 19:51:54 DriverListener [INFO] PASS: keys cleared in element 'nicknameField'.
+2022-01-07 19:51:55 DriverListener [INFO] PASS: keys 'Testing86909129' are sent to element 'nicknameField'.
+2022-01-07 19:51:55 DriverListener [INFO] PASS: keys cleared in element 'passwordField'.
+2022-01-07 19:51:56 DriverListener [INFO] PASS: keys 'Testing' are sent to element 'passwordField'.
+2022-01-07 19:51:56 DriverListener [ERROR] FAIL: element 'dataStorageCheckbox (By.xpath: //input[@id='iagree1' and @type='checkbox'])' is not clicked!
+2022-01-07 19:51:58 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'dataStorageCheckbox (By.xpath: //input[@id='iagree1' and @type='checkbox'])' is not visible...
+2022-01-07 19:51:58 DriverListener [ERROR] FAIL: element 'ageMajorityCheckbox (By.xpath: //input[@id='iagree2' and @type='checkbox'])' is not clicked!
+2022-01-07 19:51:59 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'ageMajorityCheckbox (By.xpath: //input[@id='iagree2' and @type='checkbox'])' is not visible...
+2022-01-07 19:51:59 DriverListener [INFO] PASS: element 'submitButton' is clicked.
+2022-01-07 19:51:59 Messager [INFO] TEST [gsm_arena - validateEmptyEmailSignUp] PASSED at [19:51:59 2022-01-07]
+2022-01-07 19:51:59 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:51:59 Messager [INFO] TEST [gsm_arena - validateEmptyNicknameSingUp] STARTED at [19:51:59 2022-01-07]
+2022-01-07 19:52:00 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:52:35 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:52:37 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-07 19:52:38 DriverListener [INFO] PASS: keys cleared in element 'emailField'.
+2022-01-07 19:52:38 DriverListener [INFO] PASS: keys 'ABCDEF@gmail.com' are sent to element 'emailField'.
+2022-01-07 19:52:39 DriverListener [INFO] PASS: keys cleared in element 'passwordField'.
+2022-01-07 19:52:39 DriverListener [INFO] PASS: keys 'Testing' are sent to element 'passwordField'.
+2022-01-07 19:52:39 DriverListener [ERROR] FAIL: element 'dataStorageCheckbox (By.xpath: //input[@id='iagree1' and @type='checkbox'])' is not clicked!
+2022-01-07 19:52:41 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'dataStorageCheckbox (By.xpath: //input[@id='iagree1' and @type='checkbox'])' is not visible...
+2022-01-07 19:52:41 DriverListener [ERROR] FAIL: element 'ageMajorityCheckbox (By.xpath: //input[@id='iagree2' and @type='checkbox'])' is not clicked!
+2022-01-07 19:52:42 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'ageMajorityCheckbox (By.xpath: //input[@id='iagree2' and @type='checkbox'])' is not visible...
+2022-01-07 19:52:43 DriverListener [INFO] PASS: element 'submitButton' is clicked.
+2022-01-07 19:52:43 Messager [INFO] TEST [gsm_arena - validateEmptyNicknameSingUp] PASSED at [19:52:43 2022-01-07]
+2022-01-07 19:52:43 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:52:43 Messager [INFO] TEST [gsm_arena - validateEmptyPasswordLogin] STARTED at [19:52:43 2022-01-07]
+2022-01-07 19:52:44 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:52:55 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:52:56 DriverListener [INFO] PASS: element 'loginDropdown' is clicked.
+2022-01-07 19:52:57 DriverListener [INFO] PASS: keys cleared in element 'loginEmailField'.
+2022-01-07 19:52:58 DriverListener [INFO] PASS: keys 'lfonseca@solvd.com' are sent to element 'loginEmailField'.
+2022-01-07 19:53:00 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-07 19:53:01 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:53:02 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:53:09 Messager [INFO] TEST [gsm_arena - validateEmptyPasswordLogin] PASSED at [19:53:09 2022-01-07]
+2022-01-07 19:53:09 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:53:09 Messager [INFO] TEST [gsm_arena - validateErrorMessage] STARTED at [19:53:09 2022-01-07]
+2022-01-07 19:53:10 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:53:20 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:53:21 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-07 19:53:22 DriverListener [INFO] PASS: keys 'adkhabdhkawhdgwyawkhg' are sent to element 'searchField'.
+2022-01-07 19:53:25 Messager [INFO] TEST [gsm_arena - validateErrorMessage] PASSED at [19:53:25 2022-01-07]
+2022-01-07 19:53:25 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:53:25 Messager [INFO] TEST [gsm_arena - validateInvalidEmailSingUp] STARTED at [19:53:25 2022-01-07]
+2022-01-07 19:53:26 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:53:41 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:53:42 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-07 19:53:43 DriverListener [INFO] PASS: keys cleared in element 'nicknameField'.
+2022-01-07 19:53:44 DriverListener [INFO] PASS: keys 'Testing999411583' are sent to element 'nicknameField'.
+2022-01-07 19:53:44 DriverListener [INFO] PASS: keys cleared in element 'emailField'.
+2022-01-07 19:53:44 DriverListener [INFO] PASS: keys 'ABCDEF@g' are sent to element 'emailField'.
+2022-01-07 19:53:45 DriverListener [INFO] PASS: keys cleared in element 'passwordField'.
+2022-01-07 19:53:45 DriverListener [INFO] PASS: keys 'Testing' are sent to element 'passwordField'.
+2022-01-07 19:53:46 DriverListener [ERROR] FAIL: element 'dataStorageCheckbox (By.xpath: //input[@id='iagree1' and @type='checkbox'])' is not clicked!
+2022-01-07 19:53:47 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'dataStorageCheckbox (By.xpath: //input[@id='iagree1' and @type='checkbox'])' is not visible...
+2022-01-07 19:53:47 DriverListener [ERROR] FAIL: element 'ageMajorityCheckbox (By.xpath: //input[@id='iagree2' and @type='checkbox'])' is not clicked!
+2022-01-07 19:53:48 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'ageMajorityCheckbox (By.xpath: //input[@id='iagree2' and @type='checkbox'])' is not visible...
+2022-01-07 19:53:49 DriverListener [INFO] PASS: element 'submitButton' is clicked.
+2022-01-07 19:53:49 Messager [INFO] TEST [gsm_arena - validateInvalidEmailSingUp] PASSED at [19:53:49 2022-01-07]
+2022-01-07 19:53:49 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:53:49 Messager [INFO] TEST [gsm_arena - validateInvalidLogin] STARTED at [19:53:49 2022-01-07]
+2022-01-07 19:53:50 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:54:01 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:54:02 DriverListener [INFO] PASS: element 'loginDropdown' is clicked.
+2022-01-07 19:54:03 DriverListener [INFO] PASS: keys cleared in element 'loginEmailField'.
+2022-01-07 19:54:05 DriverListener [INFO] PASS: keys 'lfonseca@solvd.com' are sent to element 'loginEmailField'.
+2022-01-07 19:54:06 DriverListener [INFO] PASS: keys cleared in element 'loginPasswordField'.
+2022-01-07 19:54:07 DriverListener [INFO] PASS: keys 'Automation0' are sent to element 'loginPasswordField'.
+2022-01-07 19:54:09 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-07 19:54:09 Messager [INFO] TEST [gsm_arena - validateInvalidLogin] PASSED at [19:54:09 2022-01-07]
+2022-01-07 19:54:09 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:54:09 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:54:09 Messager [INFO] TEST [gsm_arena - validatePhoneSearch [L01]] STARTED at [19:54:09 2022-01-07]
+2022-01-07 19:54:10 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:54:21 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:54:22 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-07 19:54:23 DriverListener [INFO] PASS: keys 'A21s' are sent to element 'searchField'.
+2022-01-07 19:54:25 Messager [INFO] TEST [gsm_arena - validatePhoneSearch [L01]] PASSED at [19:54:25 2022-01-07]
+2022-01-07 19:54:25 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:54:25 Messager [INFO] TEST [gsm_arena - validatePhoneSearch [L02]] STARTED at [19:54:25 2022-01-07]
+2022-01-07 19:54:26 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:54:42 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:54:43 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-07 19:54:45 DriverListener [INFO] PASS: keys 'iPhone 13 Pro Max' are sent to element 'searchField'.
+2022-01-07 19:54:47 Messager [INFO] TEST [gsm_arena - validatePhoneSearch [L02]] PASSED at [19:54:47 2022-01-07]
+2022-01-07 19:54:47 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:54:47 Messager [INFO] TEST [gsm_arena - validatePhoneSearch [L03]] STARTED at [19:54:47 2022-01-07]
+2022-01-07 19:54:48 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:54:57 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:54:58 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-07 19:54:59 DriverListener [INFO] PASS: keys 'Surface Duo 2' are sent to element 'searchField'.
+2022-01-07 19:55:11 Messager [INFO] TEST [gsm_arena - validatePhoneSearch [L03]] PASSED at [19:55:11 2022-01-07]
+2022-01-07 19:55:11 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:55:11 Messager [INFO] TEST [gsm_arena - validatePhoneSearch [L04]] STARTED at [19:55:11 2022-01-07]
+2022-01-07 19:55:12 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:55:24 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:55:25 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-07 19:55:27 DriverListener [INFO] PASS: keys 'Pixel 6 Pro' are sent to element 'searchField'.
+2022-01-07 19:55:29 Messager [INFO] TEST [gsm_arena - validatePhoneSearch [L04]] PASSED at [19:55:29 2022-01-07]
+2022-01-07 19:55:29 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:55:29 Messager [INFO] TEST [gsm_arena - validateRequiredConditionsSignUp] STARTED at [19:55:29 2022-01-07]
+2022-01-07 19:55:30 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:55:45 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:55:48 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-07 19:55:48 DriverListener [INFO] PASS: keys cleared in element 'nicknameField'.
+2022-01-07 19:55:49 DriverListener [INFO] PASS: keys 'Testing182879474' are sent to element 'nicknameField'.
+2022-01-07 19:55:49 DriverListener [INFO] PASS: keys cleared in element 'emailField'.
+2022-01-07 19:55:50 DriverListener [INFO] PASS: keys 'ABCDEF@g' are sent to element 'emailField'.
+2022-01-07 19:55:50 DriverListener [INFO] PASS: keys cleared in element 'passwordField'.
+2022-01-07 19:55:50 DriverListener [INFO] PASS: keys 'Testing' are sent to element 'passwordField'.
+2022-01-07 19:55:51 DriverListener [INFO] PASS: element 'submitButton' is clicked.
+2022-01-07 19:55:52 Messager [INFO] TEST [gsm_arena - validateRequiredConditionsSignUp] PASSED at [19:55:52 2022-01-07]
+2022-01-07 19:55:52 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:55:52 Messager [INFO] TEST [gsm_arena - validateSuccessfulLogin] STARTED at [19:55:52 2022-01-07]
+2022-01-07 19:55:53 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:56:04 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:56:05 DriverListener [INFO] PASS: element 'loginDropdown' is clicked.
+2022-01-07 19:56:06 DriverListener [INFO] PASS: keys cleared in element 'loginEmailField'.
+2022-01-07 19:56:07 DriverListener [INFO] PASS: keys 'lfonseca@solvd.com' are sent to element 'loginEmailField'.
+2022-01-07 19:56:08 DriverListener [INFO] PASS: keys cleared in element 'loginPasswordField'.
+2022-01-07 19:56:10 DriverListener [INFO] PASS: keys 'Automation' are sent to element 'loginPasswordField'.
+2022-01-07 19:56:12 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-07 19:56:12 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:56:13 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:56:17 Messager [INFO] TEST [gsm_arena - validateSuccessfulLogin] PASSED at [19:56:17 2022-01-07]
+2022-01-07 19:56:17 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-07 19:56:17 Messager [INFO] TEST [gsm_arena - verifySingUpWelcomeMessage] STARTED at [19:56:17 2022-01-07]
+2022-01-07 19:56:18 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-07 19:56:28 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-07 19:56:30 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-07 19:56:31 Messager [INFO] TEST [gsm_arena - verifySingUpWelcomeMessage] PASSED at [19:56:31 2022-01-07]
+2022-01-07 19:56:31 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-07 19:56:31 Messager [INFO] RESULT #1: TEST [gsm_arena - validateBrandSearch [L01]] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/e148ddfc-d242-4b97-9972-3deac8821b23/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/e148ddfc-d242-4b97-9972-3deac8821b23/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #2: TEST [gsm_arena - validateBrandSearch [L02]] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/0d149913-8713-409c-b60d-9b6bdc26039f/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/0d149913-8713-409c-b60d-9b6bdc26039f/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #3: TEST [gsm_arena - validateBrandSearch [L03]] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/dc07d36a-bc53-4e8a-b9a3-23cdbd58073f/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/dc07d36a-bc53-4e8a-b9a3-23cdbd58073f/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #4: TEST [gsm_arena - validateBrandSearch [L04]] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/28c12b53-7d85-4eca-ad1f-d9e7d822ba8d/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/28c12b53-7d85-4eca-ad1f-d9e7d822ba8d/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #5: TEST [gsm_arena - validateEmptyEmailLogin] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/d1c92cd7-4d90-497d-97a1-79365400f38e/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/d1c92cd7-4d90-497d-97a1-79365400f38e/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #6: TEST [gsm_arena - validateEmptyEmailSignUp] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/b943d0fd-f6df-4ddc-86d5-c3184a8be47a/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/b943d0fd-f6df-4ddc-86d5-c3184a8be47a/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #7: TEST [gsm_arena - validateEmptyNicknameSingUp] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/fc20c953-6421-451e-9937-f37124afa337/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/fc20c953-6421-451e-9937-f37124afa337/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #8: TEST [gsm_arena - validateEmptyPasswordLogin] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/59e9a5ff-10b0-4315-abd3-2e1b54dae3f8/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/59e9a5ff-10b0-4315-abd3-2e1b54dae3f8/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #9: TEST [gsm_arena - validateErrorMessage] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/97addee0-1269-4e28-a42f-07bfb9f1e34f/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/97addee0-1269-4e28-a42f-07bfb9f1e34f/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #10: TEST [gsm_arena - validateInvalidEmailSingUp] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/78e7170e-8793-49a5-940c-8fb94f4142bc/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/78e7170e-8793-49a5-940c-8fb94f4142bc/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #11: TEST [gsm_arena - validateInvalidLogin] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/bc7bf06e-db12-4122-824a-9b027ef09e6f/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/bc7bf06e-db12-4122-824a-9b027ef09e6f/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #12: TEST [gsm_arena - validatePhoneSearch [L01]] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/190b9a28-4196-4ca1-bca8-05ab8ff87450/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/190b9a28-4196-4ca1-bca8-05ab8ff87450/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #13: TEST [gsm_arena - validatePhoneSearch [L02]] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/5297a150-1a1e-4fec-a66f-cc90d692c8a8/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/5297a150-1a1e-4fec-a66f-cc90d692c8a8/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #14: TEST [gsm_arena - validatePhoneSearch [L03]] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/5e82fcb9-ec8d-42ea-80bc-b20d17d93544/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/5e82fcb9-ec8d-42ea-80bc-b20d17d93544/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #15: TEST [gsm_arena - validatePhoneSearch [L04]] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/bbfa9791-0391-419f-a012-51166d4e558f/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/bbfa9791-0391-419f-a012-51166d4e558f/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #16: TEST [gsm_arena - validateRequiredConditionsSignUp] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/e5890134-4791-42eb-b8c2-7bcfe7a17f0b/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/e5890134-4791-42eb-b8c2-7bcfe7a17f0b/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #17: TEST [gsm_arena - validateSuccessfulLogin] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/c64bef2a-963a-4912-a542-94f0f256fcd6/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/c64bef2a-963a-4912-a542-94f0f256fcd6/test.log]
+2022-01-07 19:56:31 Messager [INFO] RESULT #18: TEST [gsm_arena - verifySingUpWelcomeMessage] PASS [screenshots=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/22ccb17c-7bb6-4936-b9ba-08bdf9ad54d5/report.html | log=file:///Users/lautarojoaquinfonseca/IdeaProjects/gsm_arena/./reports/1641595790586/22ccb17c-7bb6-4936-b9ba-08bdf9ad54d5/test.log]
